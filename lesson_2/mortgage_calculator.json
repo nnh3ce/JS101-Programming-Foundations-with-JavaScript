@@ -1,0 +1,37 @@
+{
+"en": {
+  "decimalRateOrNegative": "\n¡No ingrese la tasa como decimal o negativa! Vuelva a intentarlo.",
+  "creditAmount": "Ingrese el monto del préstamo:",
+  "negativeAmountZeroNumbers": "\nNo ingrese una cantidad negativa o cero y solo ingrese números. Vuelva a intentarlo.",
+  "interestIntegerOrFloat": "Introduzca la tasa de interés anual como flotante o entero:",
+  "creditDuration": "Ingrese la duración del préstamo en años:",
+  "zeroDuration": "No use decimales para fracciones de un año y no ingrese cero o números negativos para la duración del préstamo.",
+  "anotherCalculation": "¿Tiene otro cálculo de pago de hipoteca? Ingrese 'y' para Sí o 'n' para No:",
+  "yesOrNo": "Introduzca 'sí' o 'no':",
+  "invalid": "Entrada no válida, inténtalo de nuevo"
+  },
+
+"es":{
+  "decimalRateOrNegative": "\n¡No ingrese la tasa como decimal o negativa! Vuelva a intentarlo.",
+  "creditAmount": "Ingrese el monto del préstamo:",
+  "negativeAmountZeroNumbers": "\nNo ingrese una cantidad negativa o cero y solo ingrese números. Vuelva a intentarlo.",
+  "interestIntegerOrFloat": "Introduzca la tasa de interés anual como flotante o entero:",
+  "creditDuration": "Ingrese la duración del préstamo en años:",
+  "zeroDuration": "No use decimales para fracciones de un año y no ingrese cero o números negativos para la duración del préstamo.",
+  "anotherCalculation": "¿Tiene otro cálculo de pago de hipoteca? Ingrese 'y' para Sí o 'n' para No:",
+  "yesOrNo": "Introduzca 'sí' o 'no':",
+  "invalid": "Entrada no válida, inténtalo de nuevo"
+  },
+
+"kn": {
+  "decimalRateOrNegative": "\n 소수점 또는 음수로 비율을 입력하지 마십시오! 다시 시도하십시오.",
+  "loanAmount": "대출 금액 입력 :",
+  "negativeAmountZeroNumbers": "\n 음수 또는 0을 입력하지 말고 숫자 만 입력하십시오! 다시 시도하십시오.",
+  "interestIntegerOrFloat": "연간 이자율을 부동 또는 정수로 입력 :",
+  "loanDuration": "대출 기간 (년) 입력 :",
+  "zeroDuration": "1 년의 분수에 소수를 사용하지 말고 대출 기간에 0 또는 음수를 입력하지 마십시오.",
+  "anotherCalculation": "다른 모기지 지불 계산이 있습니까? 예인 경우 'y'를, 아니오 인 경우 'n'을 입력하십시오.",
+  "yesOrNo": " '예'또는 '아니오'를 입력하십시오 :",
+  "잘못된": "잘못된 항목입니다. 다시 시도하십시오."
+  }
+}

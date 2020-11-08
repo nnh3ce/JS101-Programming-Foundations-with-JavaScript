@@ -1,17 +1,28 @@
 {
-"en": {
-  "decimalRateOrNegative": "\n¡No ingrese la tasa como decimal o negativa! Vuelva a intentarlo.",
-  "creditAmount": "Ingrese el monto del préstamo:",
-  "negativeAmountZeroNumbers": "\nNo ingrese una cantidad negativa o cero y solo ingrese números. Vuelva a intentarlo.",
-  "interestIntegerOrFloat": "Introduzca la tasa de interés anual como flotante o entero:",
-  "creditDuration": "Ingrese la duración del préstamo en años:",
-  "zeroDuration": "No use decimales para fracciones de un año y no ingrese cero o números negativos para la duración del préstamo.",
-  "anotherCalculation": "¿Tiene otro cálculo de pago de hipoteca? Ingrese 'y' para Sí o 'n' para No:",
-  "yesOrNo": "Introduzca 'sí' o 'no':",
-  "invalid": "Entrada no válida, inténtalo de nuevo"
+"beginning": {
+  "intro": "Enter '1' for english, ingrese '2' para español, 한국어는 '3' 입력"
+},
+
+"en":{
+  "monthlyPayment": "Your Monthly Payment",
+  "language": "Please enter 'en' for english, 'es' for spanish, or 'kn' for korean:",
+  "loanDuration": "Enter the loan term in years:",
+  "loanAmount": "Please enter loan amount: ",
+  "decimalRateOrNegative": "\nPlease do not enter the rate as decimal or negative! Please try again:",
+  "creditAmount": "Enter the loan amount:",
+  "negativeAmountZeroNumbers": "\nPlease do not enter a negative or zero amount and only enter numbers. Please try again:",
+  "interestIntegerOrFloat": "Enter the annual interest rate as float or integer:",
+  "creditDuration": "Enter the duration of the loan in years:",
+  "zeroDuration": "Do not use decimals for fractions of a year and do not enter zero or negative numbers for the duration of the loan:",
+  "anotherCalculation": "Do you have another mortgage payment calculation? Enter 'y' for Yes or 'n' for No:",
+  "yesOrNo": "Enter 'y' or 'n':",
+  "invalid": "Invalid entry, please try again:"
   },
 
 "es":{
+  "monthlyPayment": "Su pago mensual",
+  "loanDuration": "Introduzca el plazo del préstamo en años:",
+  "loanAmount": "Ingrese el monto del préstamo:",
   "decimalRateOrNegative": "\n¡No ingrese la tasa como decimal o negativa! Vuelva a intentarlo.",
   "creditAmount": "Ingrese el monto del préstamo:",
   "negativeAmountZeroNumbers": "\nNo ingrese una cantidad negativa o cero y solo ingrese números. Vuelva a intentarlo.",
@@ -19,19 +30,22 @@
   "creditDuration": "Ingrese la duración del préstamo en años:",
   "zeroDuration": "No use decimales para fracciones de un año y no ingrese cero o números negativos para la duración del préstamo.",
   "anotherCalculation": "¿Tiene otro cálculo de pago de hipoteca? Ingrese 'y' para Sí o 'n' para No:",
-  "yesOrNo": "Introduzca 'sí' o 'no':",
+  "yesOrNo": "Introduzca 'y' o 'n':",
   "invalid": "Entrada no válida, inténtalo de nuevo"
   },
 
 "kn": {
-  "decimalRateOrNegative": "\n 소수점 또는 음수로 비율을 입력하지 마십시오! 다시 시도하십시오.",
-  "loanAmount": "대출 금액 입력 :",
-  "negativeAmountZeroNumbers": "\n 음수 또는 0을 입력하지 말고 숫자 만 입력하십시오! 다시 시도하십시오.",
-  "interestIntegerOrFloat": "연간 이자율을 부동 또는 정수로 입력 :",
-  "loanDuration": "대출 기간 (년) 입력 :",
-  "zeroDuration": "1 년의 분수에 소수를 사용하지 말고 대출 기간에 0 또는 음수를 입력하지 마십시오.",
+  "monthlyPayment": "월별 지불",
+  "loanDuration": "연도 단위로 대출 기간 입력 :",
+  "loanAmount": "대출 금액을 입력하십시오 :",
+  "decimalRateOrNegative": "\n 소수점 또는 음수로 비율을 입력하지 마십시오! 다시 시도하십시오 :",
+  "creditAmount": "대출 금액 입력 :",
+  "negativeAmountZeroNumbers": "\n 음수 또는 0을 입력하지 말고 숫자 만 입력하십시오. 다시 시도하십시오.",
+  "interestIntegerOrFloat": "연간 이자율을 부동 또는 정수로 입력하십시오.",
+  "creditDuration": "대출 기간 (년) 입력 :",
+  "zeroDuration": "1 년의 분수에 소수를 사용하지 말고 대출 기간 동안 0 또는 음수를 입력하지 마십시오.",
   "anotherCalculation": "다른 모기지 지불 계산이 있습니까? 예인 경우 'y'를, 아니오 인 경우 'n'을 입력하십시오.",
-  "yesOrNo": " '예'또는 '아니오'를 입력하십시오 :",
+  "yesOrNo": " 'y'또는 'n'입력 :",
   "잘못된": "잘못된 항목입니다. 다시 시도하십시오."
   }
 }

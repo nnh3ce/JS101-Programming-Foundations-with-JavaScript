@@ -1,0 +1,11 @@
+{
+  "Choose": "Choose 'r' for rock, 'p' for paper, 's' for scissors, 'l' for lizard, or 'k' for spock:",
+  "Welcome": "\nWelcome to Rock, Paper, Scissors, Spock, Lizard!\n",
+  "Instructions": "The player that wins 3 rounds is the grand winner\n",
+  "Invalid": "That's not a valid choice",
+  "YesOrNo":"Please enter 'y' or 'n'.",
+  "Question": "Do you want to play (y/n)?",
+  "FirstToWin": "Whoever gets 3 wins first is the grand winner, play again!\n",
+  "ComputerGrandWins": "The computer is the grand winner!",
+  "PlayerGrandWins": "You are the grand winner!"
+}

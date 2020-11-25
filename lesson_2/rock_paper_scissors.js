@@ -106,7 +106,7 @@ while (start) {
     prompt(MESSAGE["Invalid"]);
     choice = readline.question();
   }
-  
+
   console.clear();
   let randomIndex = Math.floor(Math.random() * VALID_CHOICES.length);
   let computerChoice = VALID_CHOICES[randomIndex];

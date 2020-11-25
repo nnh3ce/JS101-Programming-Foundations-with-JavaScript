@@ -95,8 +95,10 @@ console.log(MESSAGE["Welcome"]);
 console.log(MESSAGE["Instructions"]);
 
 let start = playQuestion();
+console.log("");
 
 while (start) {
+
   prompt(MESSAGE["Choose"]);
   let choice = readline.question();
 
@@ -104,7 +106,7 @@ while (start) {
     prompt(MESSAGE["Invalid"]);
     choice = readline.question();
   }
-
+  console.clear();
   let randomIndex = Math.floor(Math.random() * VALID_CHOICES.length);
   let computerChoice = VALID_CHOICES[randomIndex];
 
@@ -123,6 +125,7 @@ while (start) {
   prompt(`Player Score: ${personWinsArray.length}`);
   prompt(`Computer Score: ${computerWinsArray.length}`);
   whoIsGrandWinner(personWinsArray,computerWinsArray);
+  console.log("");
 
   if (personWinsArray.length === 3) {
     start = false;

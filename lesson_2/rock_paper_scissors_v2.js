@@ -8,7 +8,7 @@ const WINNING_CHOICES = {
   s: ['p', 'l'],
   k: ['s', 'r'],
   l: ['k', 'p']
-}
+};
 
 function letterToWord(letter) {
   if (letter === 'r') {
@@ -25,15 +25,23 @@ function letterToWord(letter) {
 }
 
 function isWon(choice1, choice2) {
-  return WINNING_CHOICES[choice1].includes(choice2) 
+  return WINNING_CHOICES[choice1].includes(choice2);
 }
 
 function prompt(message) {
   console.log(`--> ${message}\n`);
 }
 
+let personCounter = 0;
+let computerCounter = 0;
+
+let score = {
+  person: 0,
+  computer: 0
+};
+
 function countWins(winnerMessage) {
-  if (winnerMessage === "You win!") { 
+  if (winnerMessage === "You win!") {
     personCounter += 1;
     score["person"] = personCounter;
   } else if (winnerMessage === "The computer wins!") {
@@ -54,7 +62,7 @@ function whoIsGrandWinner(scorePerson, scoreComputer) {
 
 function isInvalid(wrongAnswer) {
   return wrongAnswer.toLowerCase() !== 'yes' && wrongAnswer.toLowerCase() !==
-  'no' && wrongAnswer.toLowerCase() !== 'y' && wrongAnswer.toLowerCase() !== 
+  'no' && wrongAnswer.toLowerCase() !== 'y' && wrongAnswer.toLowerCase() !==
   'n';
 }
 
@@ -80,11 +88,6 @@ function winner(choice, computerChoice) {
   }
 }
 
-let score = {
-  person: 0,
-  computer: 0
-}
-
 function chooseAnswer() {
   prompt(MESSAGE["Choose"]);
   let choice = readline.question();
@@ -97,10 +100,6 @@ function chooseAnswer() {
   }
   return choice;
 }
-
-
-let personCounter = 0;
-let computerCounter = 0;
 
 console.log(MESSAGE["Welcome"]);
 console.log(MESSAGE["Instructions"]);
@@ -130,7 +129,7 @@ while (start) {
   whoIsGrandWinner(score["person"], score["computer"]);
   console.log("");
 
-  if (score["person"]=== ROUNDS) {
+  if (score["person"] === ROUNDS) {
     start = false;
   } else if (score["computer"] === ROUNDS) {
     start = false;
@@ -139,15 +138,16 @@ while (start) {
 
 /*
 
-Edits: 
+Edits:
 
-1. Case insensitivity - "y","Y", "YES",or "Yes"is valid input. 
+1. Case insensitivity - "y","Y", "YES",or "Yes"is valid input.
 2. Case insensitivity - "r" or "R" is valid input.
 3. Case insensitivity to validation while loop.
 4. Used 'const' for number of rounds instead of magic number.
 5. Used object to keep track of score instead of array. Added counters
    & updated function logic.
-6. Created object with winning choices and function that returns true for winning choice.
+6. Created object with winning choices and function that returns true for
+   winning choice.
 7. Separated winning function messages from logic.
 8. Created chooseAnswer() function that returns answer.
 9. Edited playQuestion return statement.
